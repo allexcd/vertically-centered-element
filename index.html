@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="description" content="AngularJS directive to vertically center targeted element">
+    <meta name="keywords" content="AngularJS, directive, centering, vertical">
+    <meta name="author" content="Alexandru Costin Dumitru (AlexCD)">
+    <meta charset="UTF-8">
+    <title>AngularVerticallyCenteredElement</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular.min.js"></script>
+
+    <!--directives-->
+    <script type="text/javascript" src="js/directives/VerticallyCenteredElement.js"></script>
+
+    <!--modules-->
+    <script type="text/javascript" src="js/modules/directives.js"></script>
+    <script type="text/javascript" src="js/modules/modules.js"></script>
+
+</head>
+<body ng-app="modules">
+
+        <!--<div vertically-centered-element centering-animation="500">test</div>-->
+
+        <vertically-centered-element centering-animation="500">
+            <div>test</div>
+        </vertically-centered-element>
+
+</body>
+</html>
